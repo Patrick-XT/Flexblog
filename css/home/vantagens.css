@@ -1,0 +1,59 @@
+.vantagens {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+  gap: 30px;
+  margin-top: 80px;
+  margin-bottom:80px ;
+}
+.vantagens h1 {
+  font-size: 2.25em;
+  color: #a4a4a4;
+  margin-bottom: 30px;
+  position: relative;
+}
+.vantagens h2 {
+  font-size: 2.25em;
+  color: #a4a4a4;
+  margin-bottom: 30px;
+  position: relative;
+}
+.vantagens h3 {
+  font-size: 2.25em;
+  color: #a4a4a4;
+  margin-bottom: 30px;
+  position: relative;
+}
+.vantagens h1::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 30px;
+  background: #ae81ff;
+  margin-right: 10px;
+}
+.vantagens h2::before {
+  content: "";
+  display:inline-block;
+  width: 8px;
+  height: 30px;
+  background:#f9265e;
+  margin-right: 10px;
+}
+.vantagens h3::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 30px;
+  background:#66d9eb;
+ margin-right: 10px;
+}
+
+.vantagens p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  color: #7c7c7c;
+  width: 25ch;
+  
+}
