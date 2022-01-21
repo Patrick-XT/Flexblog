@@ -91,17 +91,20 @@
 @media (max-width: 800px) {
   .cobre {
     border: solid white 4px;
-    padding: 30px 40px;
+    padding: 10px 20px;
     align-items: flex-end;
   }
   .prata {
     border: solid white 4px;
-    padding: 30px 40px;
+    padding: 10px 20px;
     align-items: flex-end;
   }
   .ouro {
     border: solid white 4px;
-    padding: 30px 40px;
+    padding: 10px 20px;
     align-items: flex-end;
+  }
+  .preco button{
+    font-size: 2rem;
   }
 }

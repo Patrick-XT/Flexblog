@@ -48,4 +48,7 @@
   .introducao-container p {
     max-width: 22ch;
   }
+  .introducao-container{
+    align-items: center;
+  }
 }

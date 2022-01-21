@@ -32,8 +32,15 @@
     align-items: flex-start;
   }
 }
-@media (max-width: 800px){
-  .produtos img{
-  max-width: 300px;
+@media (max-width: 800px) {
+  .produtos img {
+    max-width: 300px;
+  }
+  .produtos {
+    align-items: center;
+    justify-content: center;
+  }
+  .produtos-cont h2 {
+   margin-left: 45px;
   }
 }
